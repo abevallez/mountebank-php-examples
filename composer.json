@@ -1,0 +1,19 @@
+{
+  "name": "abevallez/mountebank-php-examples",
+  "description": "Examples to use abraham.vallez/mountebank-php",
+  "version": "0.1.1",
+  "require": {
+    "abevallez/mountebank-php": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "Abraham Vallez",
+      "email": "abraham.vallez@engrande.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MountebankPHPExamples\\": "examples/"
+    }
+  }
+}
